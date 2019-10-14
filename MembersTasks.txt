@@ -1,4 +1,6 @@
 - Agapia Eduard
+	-Do the related articles part of "Related articles and books";
+	-Will work on back-end;
 
 - Chiriac Dorin Virgiliu
 
