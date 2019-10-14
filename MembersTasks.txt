@@ -1,0 +1,14 @@
+- Agapia Eduard
+
+- Chiriac Dorin Virgiliu
+
+- Manole Radu
+
+- Schitcu Gabriel-Mihai
+	- Create git repository and trello board
+	- Do a part of the state-of-the-art:  What did the others, techniques and methodologies used, evaluation methods, results;
+	- Will work both on backend and frontend
+
+- Simion Evelina
+
+- Toma Marius Andrei
