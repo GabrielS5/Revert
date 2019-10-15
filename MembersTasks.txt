@@ -3,8 +3,10 @@
 	-Will work on back-end;
 
 - Chiriac Dorin Virgiliu
+	- Research Ionic and it's capabillities
 
 - Manole Radu
+	- Research relevant names and teams in this matter
 
 - Schitcu Gabriel-Mihai
 	- Create git repository and trello board
