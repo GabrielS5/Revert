@@ -12,5 +12,7 @@
 	- Will work both on backend and frontend
 
 - Simion Evelina
+	- Find real medical records from neighbouring hospitals, which will later on be used to design our forms.
 
 - Toma Marius Andrei
+	- Research what database will be used
