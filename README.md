@@ -18,3 +18,6 @@ The coordinator: Adrian Iftene
 
 Contact Information:
 	- gabriel_schitcu@yahoo.com
+	
+Trello Board:
+	- https://trello.com/b/mrQkMDGd/first-phase
