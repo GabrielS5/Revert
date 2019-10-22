@@ -1,0 +1,14 @@
+Initial Requirements:
+	- create a web application able to collect data about ill people
+	- create a mobile application able to collect data about ill people
+	- for a new ill person, the application will predict the best treatment to be recomended
+	- We will study and implement a number of algorithms in order to identify the best one for this problem.
+
+Current Requirements:
+	- Develop an application able to be accessed from the web or from the android and apple store.
+	- The application should allow authentication as doctor, assistant and patient
+	- Find a proper medical record from a respectable medical institution. 
+	Based on this record, implement a form which can be completed by users in order to add new complete or incomplete records.
+	- The doctor should be able to add complete records (in order to seed the database), normal users can add incomplete records.
+	- Once a record is added, it's fields will be processed (using an text analysis algorithm) in order to find more relevant keywords paired with their value.
+	These processed records will be used in the clustering algorithm later on...
