@@ -1,10 +1,12 @@
-package medicalPersonnel;
+package patient;
 
+import medicalPersonnel.Assistant;
+import medicalPersonnel.Doctor;
 import patologies.Disease;
 
 import java.util.List;
 
-public class Patient {
+public class PatientImpl implements Patient {
 
     public static String firstName;
     public static String lastName;
@@ -17,7 +19,7 @@ public class Patient {
     }
 
     public static void setFirstName(String firstName) {
-        Patient.firstName = firstName;
+        PatientImpl.firstName = firstName;
     }
 
     public static String getLastName() {
@@ -25,7 +27,7 @@ public class Patient {
     }
 
     public static void setLastName(String lastName) {
-        Patient.lastName = lastName;
+        PatientImpl.lastName = lastName;
     }
 
     public Doctor getDoctor() {
@@ -50,5 +52,10 @@ public class Patient {
 
     public void setDiseases(List<Disease> diseases) {
         this.diseases = diseases;
+    }
+
+    @Override
+    public String receiveTreatment() {
+        return null;
     }
 }

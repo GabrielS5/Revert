@@ -1,15 +1,16 @@
 package medicalPersonnel;
 
 import MedicalSpecialization.MedicalSpec4Assistant;
+import patient.PatientImpl;
 
 import java.util.List;
 
-public class Assistant {
+public class Assistant implements MedicalPersonnel {
 
     public static String firstName;
     public static String lastName;
     private static MedicalSpec4Assistant spec4Assistant;
-    private List<Patient> patients;
+    private List<PatientImpl> patients;
     private List<Doctor> doctors;
 
     public static String getFirstName() {
@@ -36,11 +37,11 @@ public class Assistant {
         Assistant.spec4Assistant = spec4Assistant;
     }
 
-    public List<Patient> getPatients() {
+    public List<PatientImpl> getPatients() {
         return patients;
     }
 
-    public void setPatients(List<Patient> patients) {
+    public void setPatients(List<PatientImpl> patients) {
         this.patients = patients;
     }
 
@@ -50,5 +51,25 @@ public class Assistant {
 
     public void setDoctors(List<Doctor> doctors) {
         this.doctors = doctors;
+    }
+
+    @Override
+    public void readMedicalFile() {
+
+    }
+
+    @Override
+    public String consultAndGiveDiagnostic() {
+        return null;
+    }
+
+    @Override
+    public void writeInMedicalFile() {
+
+    }
+
+    @Override
+    public void giveTreatment() {
+
     }
 }
