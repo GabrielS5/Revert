@@ -1,35 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AspectCore;
+using AutoMapper;
+using Core.Entities;
+using Core.Entities.Models;
+using Core.Entities.Queries;
+using Core.Services;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
-using API.Entities;
-using API.Repositories;
-using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [Log]
     [Route("api/[controller]")]
     [ApiController]
     public class RecordsController : ControllerBase
     {
-        private readonly IRecordsRepository repository;
+        private readonly IRecordsService service;
+        private readonly IMapper mapper;
 
-        public RecordsController(IRecordsRepository repository)
+        public RecordsController(IRecordsService service, IMapper mapper)
         {
-            this.repository = repository;
+            this.service = service;
+            this.mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Record>>> Get()
+        public async Task<ActionResult<IQueryable<Record>>> Get([FromQuery]RecordsQuery query)
         {
-            return Ok(await repository.GetAll());
+            return Ok(await service.GetAll(query));
         }
 
 
         [HttpGet("{id}")]
-        public async  Task<ActionResult<Record>> Get(Guid id)
+        public async Task<ActionResult<Record>> Get(Guid id)
         {
-            return Ok(await repository.GetById(id));
+            return Ok(await service.GetById(id));
+        }
+
+        [HttpPost]
+        public async Task Post([FromBody]RecordModel model)
+        {
+            await service.Insert(mapper.Map<RecordModel, Record>(model));
         }
     }
 }

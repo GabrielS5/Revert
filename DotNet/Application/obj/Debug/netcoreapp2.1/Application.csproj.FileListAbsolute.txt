@@ -1,0 +1,16 @@
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.csprojAssemblyReference.cache
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfoInputs.cache
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.AssemblyInfo.cs
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Application.deps.json
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Application.dll
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Application.pdb
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\AspectCore.dll
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\AspectCore.pdb
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.csproj.CopyComplete
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.dll
+C:\Users\gabri\Desktop\Git\Revert\DotNet\Application\obj\Debug\netcoreapp2.1\Application.pdb
