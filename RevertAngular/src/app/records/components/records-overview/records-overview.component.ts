@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FacadeService } from '../../services/facade.service';
+import { RecordsService } from '../../services/records.service';
 
 @Component({
   selector: 'app-records-overview',
@@ -8,10 +8,10 @@ import { FacadeService } from '../../services/facade.service';
 })
 export class RecordsOverviewComponent implements OnInit {
 
-  constructor(private facadeService: FacadeService) { }
+  constructor(private recordsService: RecordsService) { }
 
   ngOnInit() {
-    console.log(this.facadeService.get());
+    console.log(this.recordsService.get());
   }
 
 }

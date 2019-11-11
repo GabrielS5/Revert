@@ -11,12 +11,7 @@ export class RecordsService {
   constructor(private http: HttpClient) {}
 
   get(): Record[] {
-    //return this.http.get(this.baseUrl);
-
-    let records = [
-      {patient: "Ion Popescu", date: new Date(), diagnosis: "Hepatita"} as Record,
-      {patient: "Vasile Popescu", date: new Date(), diagnosis: "Raceala"} as Record,
-      {patient: "Ioana Ionescu", date: new Date(), diagnosis: "Lupus"} as Record,
+    const records = [
     ];
 
     return records;
