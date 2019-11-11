@@ -10,7 +10,7 @@ import { Record } from '../../models/Record';
 export class RecordsOverviewComponent implements OnInit {
   records: Record[];
 
-  constructor(private recordsService: RecordsService) {}
+  constructor(private recordsService: RecordsService) { }
 
   ngOnInit() {
     this.recordsService.get().subscribe(response => {

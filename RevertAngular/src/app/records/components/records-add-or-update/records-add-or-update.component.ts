@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '../../../../../node_modules/@angular/forms';
 import { RecordsService } from '../../services/records.service';
 import { Record } from '../../models/Record';
+import { Router } from '../../../../../node_modules/@angular/router';
 
 @Component({
   selector: 'app-records-add-or-update',
@@ -11,7 +12,7 @@ import { Record } from '../../models/Record';
 export class RecordsAddOrUpdateComponent implements OnInit {
   form: FormGroup;
 
-  constructor(private api: RecordsService) {
+  constructor(private api: RecordsService, private router: Router) {
     this.form = new FormGroup({
       stareaGenerala: new FormControl(''),
       talie: new FormControl(''),
@@ -41,9 +42,13 @@ export class RecordsAddOrUpdateComponent implements OnInit {
 
   onSubmit() {
     this.api.post(this.form.value as Record).subscribe(response => {
-      console.log(response);
+      this.router.navigate(['records']);
     });
   }
 
-  ngOnInit() {}
+  onCancel() {
+    this.router.navigate(['records']);
+  }
+
+  ngOnInit() { }
 }

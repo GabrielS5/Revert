@@ -1434,12 +1434,10 @@
       ]
     },
     "Remotion.Linq/2.2.0": {
-      "sha512": "twDAH8dAXXCAf3sRv1Tf94u66eEHvgU75hfn1nn2v4fSWXD50XoDOAk8WpSrbViNuMkB4kN1ElnOGm1c519IHg==",
+      "sha512": "fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "type": "package",
       "path": "remotion.linq/2.2.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/net35/Remotion.Linq.XML",
         "lib/net35/Remotion.Linq.dll",
         "lib/net40/Remotion.Linq.XML",
@@ -2084,7 +2082,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "bhtl3Bt0/VYALnDu9MwGV2GZOF3W+Gdh8Iwg0XlSYDRaVKTbNZaBUNdBpPuh5m+d3MaXUFOK3BU8fuh7Krq5zQ==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3106,23 +3104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabriel.schitcu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {},
+    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.schitcu\\Desktop\\Git Secundar\\Revert\\DotNet\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\gabriel.schitcu\\Desktop\\Git Secundar\\Revert\\DotNet\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\gabriel.schitcu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabriel.schitcu\\Desktop\\Git Secundar\\Revert\\DotNet\\Core\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\gabriel.schitcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

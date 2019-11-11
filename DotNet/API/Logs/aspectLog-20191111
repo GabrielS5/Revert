@@ -12,3 +12,128 @@
  PatientId: 
  StartDate: 
  EndDate:  (042bdad9)
+2019-11-11T18:34:15.0316316+02:00  [INF] Executed method Post with arguments:   Core.Entities.Models.RecordModel (2f982152)
+2019-11-11T18:34:29.4658007+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:45:27.3813432+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:48:41.6095353+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:49:02.2297909+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:49:19.1128833+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:49:32.6856829+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:53:53.4864075+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T18:55:35.5099255+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:06:37.5168069+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:06:52.1784693+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:08:54.1864532+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:17:44.3013743+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:17:57.3914595+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:24:07.8777877+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:26:03.7325018+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:26:37.6945587+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:26:44.4235366+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:29:17.2290158+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:29:40.0596440+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:30:19.8126564+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:31:18.7092081+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:32:50.3000831+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:33:00.0384139+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:33:05.1926923+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:33:14.9760208+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:33:37.3714588+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:37:12.3125454+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T19:37:23.2436226+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T20:21:45.9675045+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T20:23:52.3007665+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
+2019-11-11T20:23:56.1302773+02:00  [INF] Executed method Get with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (042bdad9)
