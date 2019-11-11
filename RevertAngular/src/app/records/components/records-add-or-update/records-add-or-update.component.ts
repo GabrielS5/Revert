@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '../../../../../node_modules/@angular/forms';
+import { RecordsService } from '../../services/records.service';
+import { Record } from '../../models/Record';
 
 @Component({
   selector: 'app-records-add-or-update',
@@ -9,7 +11,7 @@ import { FormGroup, FormControl } from '../../../../../node_modules/@angular/for
 export class RecordsAddOrUpdateComponent implements OnInit {
   form: FormGroup;
 
-  constructor() {
+  constructor(private api: RecordsService) {
     this.form = new FormGroup({
       stareaGenerala: new FormControl(''),
       talie: new FormControl(''),
@@ -33,11 +35,15 @@ export class RecordsAddOrUpdateComponent implements OnInit {
       motiveleInternarii: new FormControl(''),
       anamneza: new FormControl(''),
       istoriculBolii: new FormControl(''),
-      diagnosis: new FormControl(''),
+      diagnosis: new FormControl('')
     });
   }
 
-  ngOnInit() {
+  onSubmit() {
+    this.api.post(this.form.value as Record).subscribe(response => {
+      console.log(response);
+    });
   }
 
+  ngOnInit() {}
 }

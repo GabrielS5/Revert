@@ -34,6 +34,9 @@ namespace API.Services
 
         public async Task Insert(Record record)
         {
+            record.CreationDate = DateTime.Now;
+            record.Id = Guid.NewGuid();
+
             await recordsRepository.Insert(record);
         }
     }

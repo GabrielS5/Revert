@@ -41,6 +41,8 @@ namespace API.Controllers
         [HttpPost]
         public async Task Post([FromBody]RecordModel model)
         {
+
+
             await service.Insert(mapper.Map<RecordModel, Record>(model));
         }
     }

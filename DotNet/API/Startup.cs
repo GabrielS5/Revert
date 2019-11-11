@@ -1,4 +1,5 @@
 ﻿using API.Services;
+using Application.Profiles;
 using AutoMapper;
 using Core.Repositories;
 using Core.Services;
@@ -26,7 +27,16 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(typeof(Startup));
+            services.AddCors();
+
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new RecordProfile());
+            });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
             services.AddScoped<IRecordsRepository, RecordsRepository>();
             services.AddScoped<IRecordsService, RecordsService>();
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
@@ -39,6 +49,14 @@ namespace API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseCors(builder =>
+             builder
+               .AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod()
+           );
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

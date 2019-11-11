@@ -12,3 +12,17 @@ C:\Users\gabri\Desktop\Git\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCo
 C:\Users\gabri\Desktop\Git\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.csproj.CopyComplete
 C:\Users\gabri\Desktop\Git\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Core.dll
 C:\Users\gabri\Desktop\Git\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\AspectCore.deps.json
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\AspectCore.dll
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\AspectCore.pdb
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.csprojAssemblyReference.cache
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.AssemblyInfoInputs.cache
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.AssemblyInfo.cs
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.csproj.CopyComplete
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.dll
+C:\Users\gabriel.schitcu\Desktop\Git Secundar\Revert\DotNet\Aspect\obj\Debug\netcoreapp2.1\AspectCore.pdb
