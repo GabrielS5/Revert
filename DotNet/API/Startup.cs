@@ -1,6 +1,8 @@
 ﻿using API.Services;
 using Application.Profiles;
+using Application.Services;
 using AutoMapper;
+using Core.Entities;
 using Core.Repositories;
 using Core.Services;
 using Data;
@@ -31,7 +33,7 @@ namespace API
 
             var mappingConfig = new MapperConfiguration(mc =>
             {
-                mc.AddProfile(new RecordProfile());
+                mc.AddProfile(new MapperProfile());
             });
 
             IMapper mapper = mappingConfig.CreateMapper();
@@ -39,6 +41,12 @@ namespace API
 
             services.AddScoped<IRecordsRepository, RecordsRepository>();
             services.AddScoped<IRecordsService, RecordsService>();
+            services.AddTransient<ITranslateService, TranslateService>();
+            services.AddTransient<IKeywordsService, KeywordsService>();
+
+            services.Configure<ExternalApisSettings>(
+                options => Configuration.GetSection("ExternalApisSettings").Bind(options));
+
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
                 .UseLoggerFactory(new LoggerFactory()
                 .AddFile("Logs/ts-{Date}.txt")));

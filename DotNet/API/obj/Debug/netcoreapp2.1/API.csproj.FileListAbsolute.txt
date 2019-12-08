@@ -26,8 +26,6 @@ C:\Users\gabri\Desktop\Git\Revert\DotNet\API\obj\Debug\netcoreapp2.1\API.Assembl
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\obj\Debug\netcoreapp2.1\API.RazorTargetAssemblyInfo.cache
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\obj\Debug\netcoreapp2.1\API.dll
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\obj\Debug\netcoreapp2.1\API.pdb
-C:\Users\gabri\Desktop\Git\Revert\DotNet\API\bin\Debug\netcoreapp2.1\AspectCore.dll
-C:\Users\gabri\Desktop\Git\Revert\DotNet\API\bin\Debug\netcoreapp2.1\AspectCore.pdb
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\obj\Debug\netcoreapp2.1\API.csproj.CopyComplete
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\bin\Debug\netcoreapp2.1\Core.dll
 C:\Users\gabri\Desktop\Git\Revert\DotNet\API\bin\Debug\netcoreapp2.1\Core.pdb

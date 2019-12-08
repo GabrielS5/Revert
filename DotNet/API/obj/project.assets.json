@@ -2639,15 +2639,6 @@
           }
         }
       },
-      "MiniProfiler/4.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net461/MiniProfiler.dll": {}
-        },
-        "runtime": {
-          "lib/net461/MiniProfiler.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2663,7 +2654,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2913,27 +2904,13 @@
           }
         }
       },
-      "Serilog/2.5.0": {
+      "Serilog/2.9.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.0.1",
-          "System.Collections": "4.0.11",
-          "System.Collections.NonGeneric": "4.0.1",
-          "System.Dynamic.Runtime": "4.0.11",
-          "System.Globalization": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Runtime": "4.1.0",
-          "System.Runtime.Extensions": "4.1.0",
-          "System.Text.RegularExpressions": "4.1.0",
-          "System.Threading": "4.0.11"
-        },
         "compile": {
-          "lib/netstandard1.3/Serilog.dll": {}
+          "lib/netstandard2.0/Serilog.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Serilog.dll": {}
+          "lib/netstandard2.0/Serilog.dll": {}
         }
       },
       "Serilog.Extensions.Logging/1.4.0": {
@@ -3099,7 +3076,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
@@ -3580,6 +3557,19 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Net.Http.Formatting.Extension/5.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
         }
       },
       "System.Net.Primitives/4.3.0": {
@@ -4528,31 +4518,17 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "AspectCore": "1.0.0",
           "AutoMapper": "9.0.0",
           "Core": "1.0.0",
-          "Data": "1.0.0"
+          "Data": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http.Formatting.Extension": "5.2.3"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
-        }
-      },
-      "AspectCore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "AspectInjector": "2.2.5",
-          "Core": "1.0.0",
-          "Serilog.Extensions.Logging.File": "1.1.0"
-        },
-        "compile": {
-          "bin/placeholder/AspectCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AspectCore.dll": {}
         }
       },
       "Core/1.0.0": {
@@ -4561,6 +4537,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.1",
           "Microsoft.EntityFrameworkCore.Relational": "2.1.1",
+          "Newtonsoft.Json": "12.0.3",
           "System.Data.Common": "4.3.0"
         },
         "compile": {
@@ -4574,9 +4551,12 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "AspectInjector": "2.2.5",
           "Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "Serilog": "2.9.0",
+          "Serilog.Extensions.Logging.File": "1.1.0"
         },
         "compile": {
           "bin/placeholder/Data.dll": {}
@@ -7080,19 +7060,6 @@
         "version.txt"
       ]
     },
-    "MiniProfiler/4.1.0": {
-      "sha512": "G4r45bB8lFNUSzZzRlZ1K/jz3pxGOXHcdX5a9boobidn/AgPgQ7fuIwGGkIFSduCQUnrQ+2KjuaUBvycgWsTug==",
-      "type": "package",
-      "path": "miniprofiler/4.1.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/net461/MiniProfiler.dll",
-        "lib/net461/MiniProfiler.xml",
-        "miniprofiler.4.1.0.nupkg.sha512",
-        "miniprofiler.nuspec"
-      ]
-    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -7220,11 +7187,12 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "aTRmXwR5xYu+mWxE8r8W1DWnL02SeV8LwdQMsLwTWP8OZgrCCyTqvOAe5hRb1VNQYXjln7qr0PKpSyO/pcc19Q==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -7244,8 +7212,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -7527,11 +7496,12 @@
         "version.txt"
       ]
     },
-    "Serilog/2.5.0": {
-      "sha512": "JwwkgNYNFKT4kQZ3qBV3VqPgchUg1A6FnlFa9hgyanylwBhJ7eTFl3pgLVxijFEb+oHLImRcMaTsMzBt2AG0aQ==",
+    "Serilog/2.9.0": {
+      "sha512": "K6aiL9KU1hHOYrNlvxFJpe0hjmx0dH6XMMkKolwgiQFOr9ZykDVfGgojBf1K+lpsUJDwzn86IoVDpa5Aqs7sjg==",
       "type": "package",
-      "path": "serilog/2.5.0",
+      "path": "serilog/2.9.0",
       "files": [
+        ".signature.p7s",
         "lib/net45/Serilog.dll",
         "lib/net45/Serilog.xml",
         "lib/net46/Serilog.dll",
@@ -7540,7 +7510,9 @@
         "lib/netstandard1.0/Serilog.xml",
         "lib/netstandard1.3/Serilog.dll",
         "lib/netstandard1.3/Serilog.xml",
-        "serilog.2.5.0.nupkg.sha512",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "serilog.2.9.0.nupkg.sha512",
         "serilog.nuspec"
       ]
     },
@@ -9343,6 +9315,19 @@
         "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
         "system.net.http.4.3.0.nupkg.sha512",
         "system.net.http.nuspec"
+      ]
+    },
+    "System.Net.Http.Formatting.Extension/5.2.3": {
+      "sha512": "d8ITU2wi/Oilg4Xxf5ehaATJKAa95fWwrtnWLk+Sy78L1KMyB4RUKVint0WfOaplAT/+kVGEmW9EMzFsTrneAw==",
+      "type": "package",
+      "path": "system.net.http.formatting.extension/5.2.3",
+      "files": [
+        ".signature.p7s",
+        "lib/System.Net.Http.Extensions.dll",
+        "lib/System.Net.Http.Formatting.dll",
+        "lib/System.Net.Http.Primitives.dll",
+        "system.net.http.formatting.extension.5.2.3.nupkg.sha512",
+        "system.net.http.formatting.extension.nuspec"
       ]
     },
     "System.Net.Primitives/4.3.0": {
@@ -12022,11 +12007,6 @@
       "path": "../Application/Application.csproj",
       "msbuildProject": "../Application/Application.csproj"
     },
-    "AspectCore/1.0.0": {
-      "type": "project",
-      "path": "../Aspect/AspectCore.csproj",
-      "msbuildProject": "../Aspect/AspectCore.csproj"
-    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../Core/Core.csproj",
@@ -12041,7 +12021,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Application >= 1.0.0",
-      "AspectCore >= 1.0.0",
       "AspectInjector >= 2.2.5",
       "AutoMapper >= 9.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
@@ -12050,7 +12029,6 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.EntityFrameworkCore >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "MiniProfiler >= 4.1.0",
       "Serilog.Extensions.Logging.File >= 1.1.0"
     ]
   },
@@ -12086,9 +12064,6 @@
           "projectReferences": {
             "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Application\\Application.csproj": {
               "projectPath": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Application\\Application.csproj"
-            },
-            "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Aspect\\AspectCore.csproj": {
-              "projectPath": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Aspect\\AspectCore.csproj"
             },
             "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\gabri\\Desktop\\Git\\Revert\\DotNet\\Core\\Core.csproj"
@@ -12135,10 +12110,6 @@
             "version": "[2.1.0, )",
             "autoReferenced": true
           },
-          "MiniProfiler": {
-            "target": "Package",
-            "version": "[4.1.0, )"
-          },
           "Serilog.Extensions.Logging.File": {
             "target": "Package",
             "version": "[1.1.0, )"
@@ -12157,8 +12128,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MiniProfiler 4.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
-      "libraryId": "MiniProfiler",
+      "message": "Package 'System.Net.Http.Formatting.Extension 5.2.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Net.Http.Formatting.Extension",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
       ]

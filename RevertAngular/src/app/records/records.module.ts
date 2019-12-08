@@ -5,6 +5,7 @@ import { RecordsRoutingModule } from './records-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RecordsAddOrUpdateComponent } from './components/records-add-or-update/records-add-or-update.component';
+import { RecordsDetailsComponent } from './components/records-details/records-details.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,6 @@ import { RecordsAddOrUpdateComponent } from './components/records-add-or-update/
     HttpClientModule,
     ReactiveFormsModule
   ],
-  declarations: [RecordsOverviewComponent, RecordsAddOrUpdateComponent]
+  declarations: [RecordsOverviewComponent, RecordsAddOrUpdateComponent, RecordsDetailsComponent]
 })
 export class RecordsModule { }

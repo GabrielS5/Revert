@@ -4,12 +4,14 @@ using Core.Entities.Models;
 
 namespace Application.Profiles
 {
-    public class RecordProfile : Profile
+    public class MapperProfile : Profile
     {
-        public RecordProfile()
+        public MapperProfile()
         {
             CreateMap<Record, RecordModel>();
             CreateMap<RecordModel, Record>();
+            CreateMap<Keyword, KeywordModel>();
+            CreateMap<KeywordModel, Keyword>();
         }
     }
 }

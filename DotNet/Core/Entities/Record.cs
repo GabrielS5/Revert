@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Core.Entities
 {
     public class Record
     {
         public Guid Id { get; set; }
-        public Guid PatientId { get; set; }
         public DateTime CreationDate { get; set; }
         public string StareaGenerala { get; set; }
         public int Talie { get; set; }
@@ -30,5 +30,6 @@ namespace Core.Entities
         public string Anamneza { get; set; }
         public string IstoriculBolii { get; set; }
         public string Diagnosis { get; set; }
+        public ICollection<Keyword> Keywords { get; set; }
     }
 }

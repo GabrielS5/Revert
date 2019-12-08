@@ -1,0 +1,24 @@
+.name{
+    text-transform: capitalize;
+}
+.row{
+    margin-top: 10px;
+}
+.card{
+    padding:15px;
+}
+
+.buttons{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.keyword-name{
+    line-height: 48px;
+    text-transform: capitalize;
+    margin-left: 25px;
+}
+
+.keyword{
+    margin: 5px;
+}

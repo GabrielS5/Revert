@@ -1,0 +1,14 @@
+2019-11-26T08:15:50.8654996+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: f9c76189-fa41-4b2b-97bd-095daa3a3121
+ StartDate: 10/10/2019 12:00:00 AM
+ EndDate:  (5e734351)
+2019-11-26T08:15:50.9982882+02:00  [INF] 
+
+   SQL query is SELECT [r].[Id], [r].[Anamneza], [r].[AparatCardiovascular], [r].[AparatDigestiv], [r].[AparatRespirator], [r].[AparatUroGeneral], [r].[Constienta], [r].[CreationDate], [r].[Diagnosis], [r].[Facies], [r].[Fanere], [r].[FicatSplina], [r].[Greutate], [r].[IstoriculBolii], [r].[MotiveleInternarii], [r].[Mucoase], [r].[Nutritie], [r].[PatientId], [r].[SistemEndocrin], [r].[SistemGanglionar], [r].[SistemMuscular], [r].[SistemOsteoArticular], [r].[StareaGenerala], [r].[Talie], [r].[Tegumente], [r].[TesutConjunctiv]
+ FROM [Records] AS [r]
+ WHERE ([r].[PatientId] = 'f9c76189-fa41-4b2b-97bd-095daa3a3121') AND ([r].[CreationDate] >= '2019-10-10T00:00:00.0000000').
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, PatientId, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: PatientId, CreationDate.
+ (b28eddd5)

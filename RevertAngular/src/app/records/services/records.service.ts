@@ -16,6 +16,10 @@ export class RecordsService {
     return this.http.get<Record[]>(this.baseUrl);
   }
 
+  getById(id: string): Observable<Record> {
+    return this.http.get<Record>(`${this.baseUrl}/${id}`);
+  }
+
   post(record: Record) {
     return this.http.post(this.baseUrl, record);
   }

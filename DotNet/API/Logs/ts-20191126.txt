@@ -1,0 +1,28 @@
+2019-11-26T08:07:42.5547956+02:00  [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-11-26T08:07:44.8739456+02:00  [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-11-26T08:07:44.8773847+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-11-26T08:07:44.9087368+02:00  [INF] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-11-26T08:07:44.9265701+02:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2019-11-26T08:07:45.4131985+02:00  [INF] Executed DbCommand ("34"ms) [Parameters=["@__query_PatientId_Value_0='?' (DbType = Guid), @__query_StartDate_Value_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[Id], [r].[Anamneza], [r].[AparatCardiovascular], [r].[AparatDigestiv], [r].[AparatRespirator], [r].[AparatUroGeneral], [r].[Constienta], [r].[CreationDate], [r].[Diagnosis], [r].[Facies], [r].[Fanere], [r].[FicatSplina], [r].[Greutate], [r].[IstoriculBolii], [r].[MotiveleInternarii], [r].[Mucoase], [r].[Nutritie], [r].[PatientId], [r].[SistemEndocrin], [r].[SistemGanglionar], [r].[SistemMuscular], [r].[SistemOsteoArticular], [r].[StareaGenerala], [r].[Talie], [r].[Tegumente], [r].[TesutConjunctiv]
+FROM [Records] AS [r]
+WHERE ([r].[PatientId] = @__query_PatientId_Value_0) AND ([r].[CreationDate] >= @__query_StartDate_Value_1)" (0723d8ff)
+2019-11-26T08:15:49.1534227+02:00  [INF] Entity Framework Core "2.1.1-rtm-30846" initialized '"AppDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-11-26T08:15:50.7277771+02:00  [INF] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-11-26T08:15:50.7305021+02:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');" (0723d8ff)
+2019-11-26T08:15:50.7444002+02:00  [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2019-11-26T08:15:50.7554937+02:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2019-11-26T08:15:51.2094661+02:00  [INF] Executed DbCommand ("19"ms) [Parameters=["@__query_PatientId_Value_0='?' (DbType = Guid), @__query_StartDate_Value_1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [r].[Id], [r].[Anamneza], [r].[AparatCardiovascular], [r].[AparatDigestiv], [r].[AparatRespirator], [r].[AparatUroGeneral], [r].[Constienta], [r].[CreationDate], [r].[Diagnosis], [r].[Facies], [r].[Fanere], [r].[FicatSplina], [r].[Greutate], [r].[IstoriculBolii], [r].[MotiveleInternarii], [r].[Mucoase], [r].[Nutritie], [r].[PatientId], [r].[SistemEndocrin], [r].[SistemGanglionar], [r].[SistemMuscular], [r].[SistemOsteoArticular], [r].[StareaGenerala], [r].[Talie], [r].[Tegumente], [r].[TesutConjunctiv]
+FROM [Records] AS [r]
+WHERE ([r].[PatientId] = @__query_PatientId_Value_0) AND ([r].[CreationDate] >= @__query_StartDate_Value_1)" (0723d8ff)

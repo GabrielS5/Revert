@@ -1,6 +1,7 @@
 ﻿using Core.Entities;
 using Core.Entities.Queries;
 using Core.Repositories;
+using Data.Aspects;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
+    [Log]
     public class RecordsRepository : IRecordsRepository
     {
         private readonly AppDbContext context;
@@ -26,12 +28,10 @@ namespace Data.Repositories
 
         public async Task<IQueryable<Record>> GetAll(RecordsQuery query)
         {
-            var records = context.Records.AsQueryable();
-
-            if (query.PatientId.HasValue)
-            {
-                records = records.Where(r => r.PatientId == query.PatientId.Value);
-            }
+            var records = context.Records
+                .Include(i => i.Keywords)
+                .OrderByDescending(o => o.CreationDate)
+                .AsQueryable();
 
             if (query.StartDate.HasValue)
             {
@@ -48,7 +48,10 @@ namespace Data.Repositories
 
         public async Task<Record> GetById(Guid id)
         {
-            return await context.Records.Where(w => w.Id == id).FirstOrDefaultAsync();
+            return await context.Records
+                .Include(i => i.Keywords)
+                .Where(w => w.Id == id)
+                .FirstOrDefaultAsync();
         }
 
         public async Task Insert(Record record)

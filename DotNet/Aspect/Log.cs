@@ -9,6 +9,8 @@ namespace AspectCore
     [Injection(typeof(Log))]
     public class Log : Attribute
     {
+        public AppDbContext MyProperty { get; set; }
+
         private readonly ILogger logger;
         public Log()
         {
@@ -22,21 +24,13 @@ namespace AspectCore
             [Argument(Source.Arguments)] object[] arguments,
             [Argument(Source.Target)] Func<object[], object> method)
         {
-            Console.WriteLine($"Executing method {name}");
-
-            var sw = Stopwatch.StartNew();
-
             var result = method(arguments);
-
-            sw.Stop();
-
             var argumentsString = "";
 
             foreach(object arg in arguments){
                 argumentsString = argumentsString + "  " + arg.ToString();
             }
-
-            var da = result.GetType();
+            
             logger.LogInformation($"Executed method {name} with arguments: {argumentsString}");
 
             return result;

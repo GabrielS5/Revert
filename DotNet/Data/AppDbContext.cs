@@ -12,5 +12,11 @@ namespace Data
         }
 
         public DbSet<Record> Records { get; set; }
+        public DbSet<Keyword> Keywords { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Record>().HasMany(x => x.Keywords).WithOne(x => x.Record).HasForeignKey(x => x.RecordId);
+        }
     }
 }

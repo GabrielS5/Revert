@@ -1,0 +1,50 @@
+<div class="card" *ngIf="!!model">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-3 name">
+          Creation date:
+        </div>
+        <div class="col-sm-5">
+          {{model.creationDate | date: 'dd-MM-yyyy hh:mm'}}
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-3 name">
+          Diagnosis:
+        </div>
+        <div class="col-sm-5">
+          {{!!model.diagnosis ? model.diagnosis : "None"}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" *ngFor='let item of data'>
+    <div class="col-sm-3 name">
+      {{item.name}}:
+    </div>
+    <div class="col-sm-9">
+      {{item.value}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 name">
+      Keywords:
+    </div>
+  </div>
+  <div class="row" *ngFor="let name of getKeywordCategories()">
+    <div class="col-sm-2 keyword-name">
+      {{name}}
+    </div>
+    <div class="col-sm-9">
+      <button class="keyword btn" [class.btn-danger]="!keyword.positive" [class.btn-secondary]="keyword.positive" *ngFor="let keyword of getKeywordByName(name)">
+        {{keyword.value}}
+      </button>
+    </div>
+  </div>
+  <div class="buttons">
+    <button class="btn btn-dark" (click)="onDelete()">Delete</button>
+  </div>
+</div>
