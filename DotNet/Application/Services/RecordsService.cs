@@ -89,10 +89,10 @@ namespace API.Services
                     {
                         var translation = await translateService.Translate(value);
                         var collectedKeywords = await keywordsService.CollectKeywords(translation);
-
                         if (!collectedKeywords.Any())
                         {
-                            collectedKeywords = translation.Split(" ").Where(w => w.Length > 3).Select(w => new Keyword
+                            collectedKeywords = translation.Split(" ").Select(w => string.Concat(w.Where(c => !char.IsPunctuation(c))))
+                                                                      .Where(w => w.Length > 4).Select(w => new Keyword
                             {
                                 Significance = 0.75,
                                 Value = w
