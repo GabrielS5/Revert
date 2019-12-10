@@ -13,6 +13,7 @@ namespace Application.Services
 {
     public class KeywordsService : IKeywordsService
     {
+        private readonly List<string> negativeWords = new List<string>() { "not", "don't", "no", "doesn't", "shouldn't", "isn't" };
         private HttpClient _client;
         private string _apiKey;
 
@@ -27,10 +28,7 @@ namespace Application.Services
                     .Accept
                     .Add(new MediaTypeWithQualityHeaderValue("application/json"));
             }
-            catch
-            {
-
-            }
+            catch { }
         }
 
         public async Task<IEnumerable<Keyword>> CollectKeywords(string text)
@@ -46,7 +44,6 @@ namespace Application.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var dadao = await response.Content.ReadAsStringAsync();
                     var keywordsResponse = await response.Content.ReadAsAsync<KeywordsResponse>();
 
                     return keywordsResponse.Keywords.Select(k => new Keyword
@@ -55,15 +52,52 @@ namespace Application.Services
                         Significance = k.Significance
                     });
                 }
-                else
+            }
+            catch { }
+
+            return new List<Keyword>();
+        }
+
+        public IEnumerable<Keyword> ProcessKeywords(IEnumerable<Keyword> unprocessedKeywords, string name, string context)
+        {
+            var separatedWords = context.Split(" ").Select(w => string.Concat(w.Where(c => !char.IsPunctuation(c)))).ToList();
+            bool ComputeIsPositive(string keyword)
+            {
+                try
                 {
-                    return new List<Keyword>();
+                    var keywordIndex = separatedWords.IndexOf(keyword);
+                    var surroundingWords = new List<string>();
+
+                    if (keywordIndex > 0)
+                    {
+                        surroundingWords.Add(separatedWords[keywordIndex - 1].ToLower());
+                    }
+                    if (keywordIndex > 1)
+                    {
+                        surroundingWords.Add(separatedWords[keywordIndex - 2].ToLower());
+                    }
+                    if (keywordIndex > 2)
+                    {
+                        surroundingWords.Add(separatedWords[keywordIndex - 3].ToLower());
+                    }
+
+                    return surroundingWords.Intersect(negativeWords).ToList().Count == 0;
+                }
+                catch
+                {
+                    return true;
                 }
             }
-            catch
+
+            var processedKeywords = unprocessedKeywords.SelectMany(k => k.Value.Split(" ").Select(word => new Keyword
             {
-                return new List<Keyword>();
-            }
+                Significance = k.Significance,
+                Name = name,
+                Value = word,
+                Positive = ComputeIsPositive(word)
+            }));
+
+            return processedKeywords;
         }
     }
 }

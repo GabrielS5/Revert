@@ -5,13 +5,13 @@ using Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace API.Services
 {
     public class RecordsService : IRecordsService
     {
-        private readonly List<string> negativeWords = new List<string>() { "not", "don't", "no", "doesn't", "shouldn't", "isn't" };
         private readonly IRecordsRepository recordsRepository;
         private readonly ITranslateService translateService;
         private readonly IKeywordsService keywordsService;
@@ -51,35 +51,6 @@ namespace API.Services
         {
             var keywords = new List<Keyword>();
 
-            bool ComputeIsPositive(string context, string keyword)
-            {
-                try
-                {
-                    var words = context.Split(" ").Select(w => string.Concat(w.Where(c => !char.IsPunctuation(c)))).ToList();
-                    var keywordIndex = words.IndexOf(keyword);
-                    var surroundingWords = new List<string>();
-
-                    if (keywordIndex > 0)
-                    {
-                        surroundingWords.Add(words[keywordIndex - 1].ToLower());
-                    }
-                    if (keywordIndex > 1)
-                    {
-                        surroundingWords.Add(words[keywordIndex - 2].ToLower());
-                    }
-                    if (keywordIndex > 2)
-                    {
-                        surroundingWords.Add(words[keywordIndex - 3].ToLower());
-                    }
-
-                    return surroundingWords.Intersect(negativeWords).ToList().Count == 0;
-                }
-                catch
-                {
-                    return true;
-                }
-            }
-
             foreach (var property in record.GetType().GetProperties())
             {
                 if (property.PropertyType == typeof(string))
@@ -91,42 +62,46 @@ namespace API.Services
                         var collectedKeywords = await keywordsService.CollectKeywords(translation);
                         if (!collectedKeywords.Any())
                         {
-                            collectedKeywords = translation.Split(" ").Select(w => string.Concat(w.Where(c => !char.IsPunctuation(c))))
-                                                                      .Where(w => w.Length > 4).Select(w => new Keyword
-                            {
-                                Significance = 0.75,
-                                Value = w
-                            });
+                            collectedKeywords = GetDefaultKeywords(translation);
                         }
+                        collectedKeywords = keywordsService.ProcessKeywords(collectedKeywords, property.Name, translation);
 
-                        collectedKeywords = collectedKeywords.SelectMany(k => k.Value.Split(" ").Select(s => new Keyword
-                        {
-                            Significance = k.Significance,
-                            Name = property.Name,
-                            Value = s,
-                            Positive = ComputeIsPositive(translation, s)
-                        }));
                         keywords.AddRange(collectedKeywords);
                     }
                 }
                 if (property.PropertyType == typeof(int))
                 {
-                    if (((int)property.GetValue(record)) != 0)
-                    {
-                        keywords.Add(new Keyword
-                        {
-                            Significance = 1,
-                            Name = property.Name,
-                            Value = (property.GetValue(record)).ToString(),
-                            Positive = true
-                        });
-                    }
+                    TreatNumberKeyword(record, keywords, property);
                 }
             }
 
             keywords.ForEach(k => k.Id = Guid.NewGuid());
 
             return keywords;
+        }
+
+        private static void TreatNumberKeyword(Record record, List<Keyword> keywords, PropertyInfo property)
+        {
+            if (((int)property.GetValue(record)) != 0)
+            {
+                keywords.Add(new Keyword
+                {
+                    Significance = 1,
+                    Name = property.Name,
+                    Value = (property.GetValue(record)).ToString(),
+                    Positive = true
+                });
+            }
+        }
+
+        private static IEnumerable<Keyword> GetDefaultKeywords(string translation)
+        {
+            return translation.Split(" ").Select(w => string.Concat(w.Where(c => !char.IsPunctuation(c))))
+                                                                                  .Where(w => w.Length > 4).Select(w => new Keyword
+                                                                                  {
+                                                                                      Significance = 0.75,
+                                                                                      Value = w
+                                                                                  });
         }
     }
 }

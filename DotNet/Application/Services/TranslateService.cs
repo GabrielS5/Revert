@@ -29,9 +29,7 @@ namespace Application.Services
                     .Add(new MediaTypeWithQualityHeaderValue("application/json"));
             }
             catch
-            {
-
-            }
+            { }
         }
 
         public async Task<string> Translate(string text)
@@ -53,18 +51,13 @@ namespace Application.Services
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var translationResponse = await response.Content.ReadAsAsync<TranslateResponse>();
-                    return translationResponse.Translations.First().Translation;
-                }
-                else
-                {
-                    return null;
+                    var translateResponse = await response.Content.ReadAsAsync<TranslateResponse>();
+                    return translateResponse.Translations.First().Translation;
                 }
             }
-            catch
-            {
-                return null;
-            }
+            catch { }
+
+            return null;
         }
     }
 }
