@@ -6,5 +6,6 @@
         public string TranslateApiUri { get; set; }
         public string KeywordsApiKey { get; set; }
         public string KeywordsApiUri { get; set; }
+        public bool UseAlgorithmiaKeywords { get; set; }
     }
 }

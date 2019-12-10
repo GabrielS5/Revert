@@ -24,7 +24,8 @@ namespace Tests
             goodMockSettings.SetupGet(g => g.Value).Returns(new ExternalApisSettings
             {
                 KeywordsApiKey = "ORjN9p5UXZf8RlHBc7pSmkWM5xra3XWZha82GQrgs84",
-                KeywordsApiUri = "https://apis.paralleldots.com/v4/keywords"
+                KeywordsApiUri = "https://apis.paralleldots.com/v4/keywords",
+                UseAlgorithmiaKeywords = false
             });
 
             badMockSettings = new Mock<IOptions<ExternalApisSettings>>();

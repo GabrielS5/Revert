@@ -25,7 +25,8 @@ namespace Tests
                 TranslateApiKey = "QQdBqnzEGB_yWgh_xx9lTNYDptLBwiPpSudeSrEbn_rH",
                 TranslateApiUri = "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01",
                 KeywordsApiKey = "ORjN9p5UXZf8RlHBc7pSmkWM5xra3XWZha82GQrgs84",
-                KeywordsApiUri = "https://apis.paralleldots.com/v4/keywords"
+                KeywordsApiUri = "https://apis.paralleldots.com/v4/keywords",
+                UseAlgorithmiaKeywords = false
             });
 
             badTranslateService = new Mock<ITranslateService>();
@@ -144,7 +145,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Equal(5, result.ToList().Count);
+            Assert.Equal(4, result.ToList().Count);
         }
 
         [Fact]
