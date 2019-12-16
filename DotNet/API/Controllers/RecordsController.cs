@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Application.Aglomera;
+using AutoMapper;
 using Core.Entities;
 using Core.Entities.Models;
 using Core.Entities.Queries;
@@ -17,15 +18,11 @@ namespace API.Controllers
     {
         private readonly IRecordsService service;
         private readonly IMapper mapper;
-        private readonly ITranslateService translateService;
-        private readonly IKeywordsService keywordsService;
 
-        public RecordsController(IRecordsService service, IMapper mapper, ITranslateService translateService, IKeywordsService keywordsService)
+        public RecordsController(IRecordsService service, IMapper mapper)
         {
             this.service = service;
             this.mapper = mapper;
-            this.translateService = translateService;
-            this.keywordsService = keywordsService;
         }
 
         [HttpGet]

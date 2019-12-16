@@ -70,6 +70,8 @@ namespace API.Migrations
 
                     b.Property<int>("Greutate");
 
+                    b.Property<int>("Inaltime");
+
                     b.Property<string>("IstoriculBolii");
 
                     b.Property<string>("MotiveleInternarii");
@@ -77,6 +79,8 @@ namespace API.Migrations
                     b.Property<string>("Mucoase");
 
                     b.Property<string>("Nutritie");
+
+                    b.Property<int>("Sex");
 
                     b.Property<string>("SistemEndocrin");
 

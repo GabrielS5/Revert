@@ -1,0 +1,12 @@
+.row{
+    margin: 10px 25px;
+    display: inline-block
+}
+
+.card{
+    text-align: center;
+}
+
+button{
+    margin-left: 5px;
+}

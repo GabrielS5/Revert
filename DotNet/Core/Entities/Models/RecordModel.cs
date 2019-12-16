@@ -10,6 +10,8 @@ namespace Core.Entities.Models
         public string StareaGenerala { get; set; }
         public int Talie { get; set; }
         public int Greutate { get; set; }
+        public int Inaltime { get; set; }
+        public int Sex { get; set; }
         public string Nutritie { get; set; }
         public string Constienta { get; set; }
         public string Facies { get; set; }

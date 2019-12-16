@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { RecordsService } from '../../services/records.service';
 import { Router } from '@angular/router';
 import { Record } from '../../models/Record';
+import { ProcessingService } from '../../services/processing.service';
 
 @Component({
   selector: 'app-records-process',
@@ -12,11 +13,13 @@ import { Record } from '../../models/Record';
 export class RecordsProcessComponent implements OnInit {
   form: FormGroup;
 
-  constructor(private api: RecordsService, private router: Router) {
+  constructor(private api: ProcessingService, private router: Router) {
     this.form = new FormGroup({
       stareaGenerala: new FormControl(''),
-      talie: new FormControl(''),
-      greutate: new FormControl(''),
+      talie: new FormControl('', Validators.required),
+      greutate: new FormControl('', Validators.required),
+      inaltime: new FormControl('', Validators.required),
+      sex: new FormControl('', Validators.required),
       nutritie: new FormControl(''),
       constienta: new FormControl(''),
       facies: new FormControl(''),
@@ -35,15 +38,17 @@ export class RecordsProcessComponent implements OnInit {
       sistemEndocrin: new FormControl(''),
       motiveleInternarii: new FormControl(''),
       anamneza: new FormControl(''),
-      istoriculBolii: new FormControl(''),
-      diagnosis: new FormControl('')
+      istoriculBolii: new FormControl('')
     });
   }
 
   onSubmit() {
-    //this.api.post(this.form.value as Record).subscribe(response => {
-    // this.router.navigate(['records']);
-    //});
+    this.api.process(this.form.value as Record).subscribe(response => {
+      localStorage.setItem('diagnosis', JSON.stringify(response.diagnosis));
+      localStorage.setItem('lastRecord', JSON.stringify(this.form.value as Record));
+
+      this.router.navigate(['/records', 'process', 'result']);
+    });
   }
 
   onCancel() {

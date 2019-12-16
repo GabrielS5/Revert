@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RecordsAddOrUpdateComponent } from './components/records-add-or-update/records-add-or-update.component';
 import { RecordsDetailsComponent } from './components/records-details/records-details.component';
 import { RecordsProcessComponent } from './components/records-process/records-process.component';
+import { RecordsProcessResultComponent } from './components/records-process-result/records-process-result.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,11 @@ import { RecordsProcessComponent } from './components/records-process/records-pr
     HttpClientModule,
     ReactiveFormsModule
   ],
-  declarations: [RecordsOverviewComponent, RecordsAddOrUpdateComponent, RecordsDetailsComponent, RecordsProcessComponent]
+  declarations: [
+    RecordsOverviewComponent,
+    RecordsAddOrUpdateComponent,
+    RecordsDetailsComponent,
+    RecordsProcessComponent,
+    RecordsProcessResultComponent]
 })
 export class RecordsModule { }

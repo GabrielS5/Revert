@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "070d50c464c5601625f4a93b0d3c6d1786b92000"
+    "signature": "710b620e7fa3a644e26fd4c76549b0c2479f79bd"
   },
   "compilationOptions": {
     "defines": [
@@ -40,6 +40,36 @@
         },
         "compile": {
           "API.dll": {}
+        }
+      },
+      "Aglomera/1.1.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Aglomera.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Aglomera.dll": {}
+        }
+      },
+      "Aglomera.D3/1.1.0": {
+        "dependencies": {
+          "Aglomera": "1.1.0",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Aglomera.D3.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Aglomera.D3.dll": {}
         }
       },
       "Algorithmia.Client/1.0.5": {
@@ -429,6 +459,8 @@
       },
       "Application/1.0.0": {
         "dependencies": {
+          "Aglomera": "1.1.0",
+          "Aglomera.D3": "1.1.0",
           "Algorithmia.Client": "1.0.5",
           "AutoMapper": "9.0.0",
           "Core": "1.0.0",
@@ -3417,6 +3449,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Aglomera/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SOg7jVvhyAlVQiLPGKhFNJ3TpGJF2qbPi3eDp+JxGZscgxbF9eP19NCG0mFlz5sLC1FzigXWZebv+z7O8pc2Qg==",
+      "path": "aglomera/1.1.0",
+      "hashPath": "aglomera.1.1.0.nupkg.sha512"
+    },
+    "Aglomera.D3/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/fSzVhfp0n7wfod1CR1pStnXrEA8LnUblPawBKivp6V85ptWExZEhvHfeb1Mx14oYwPontpJAPIMkCYmg3t4Yw==",
+      "path": "aglomera.d3/1.1.0",
+      "hashPath": "aglomera.d3.1.1.0.nupkg.sha512"
     },
     "Algorithmia.Client/1.0.5": {
       "type": "package",

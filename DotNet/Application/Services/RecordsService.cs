@@ -5,7 +5,6 @@ using Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
 
 namespace API.Services
@@ -53,7 +52,7 @@ namespace API.Services
 
             foreach (var property in record.GetType().GetProperties())
             {
-                if (property.PropertyType == typeof(string))
+                if (property.PropertyType == typeof(string) && !property.Name.Equals("Diagnosis"))
                 {
                     var value = (string)property.GetValue(record);
                     if (!string.IsNullOrEmpty(value))
@@ -69,29 +68,11 @@ namespace API.Services
                         keywords.AddRange(collectedKeywords);
                     }
                 }
-                if (property.PropertyType == typeof(int))
-                {
-                    TreatNumberKeyword(record, keywords, property);
-                }
             }
 
             keywords.ForEach(k => k.Id = Guid.NewGuid());
 
             return keywords;
-        }
-
-        private static void TreatNumberKeyword(Record record, List<Keyword> keywords, PropertyInfo property)
-        {
-            if (((int)property.GetValue(record)) != 0)
-            {
-                keywords.Add(new Keyword
-                {
-                    Significance = 1,
-                    Name = property.Name,
-                    Value = (property.GetValue(record)).ToString(),
-                    Positive = true
-                });
-            }
         }
 
         private static IEnumerable<Keyword> GetDefaultKeywords(string translation)

@@ -43,6 +43,7 @@ namespace API
             services.AddScoped<IRecordsService, RecordsService>();
             services.AddTransient<ITranslateService, TranslateService>();
             services.AddTransient<IKeywordsService, KeywordsService>();
+            services.AddTransient<IClusteringService, ClusteringService>();
 
             services.Configure<ExternalApisSettings>(
                 options => Configuration.GetSection("ExternalApisSettings").Bind(options));

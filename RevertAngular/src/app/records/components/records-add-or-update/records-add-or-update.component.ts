@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '../../../../../node_modules/@angular/forms';
+import { FormGroup, FormControl, Validators } from '../../../../../node_modules/@angular/forms';
 import { RecordsService } from '../../services/records.service';
 import { Record } from '../../models/Record';
 import { Router } from '../../../../../node_modules/@angular/router';
@@ -15,8 +15,10 @@ export class RecordsAddOrUpdateComponent implements OnInit {
   constructor(private api: RecordsService, private router: Router) {
     this.form = new FormGroup({
       stareaGenerala: new FormControl(''),
-      talie: new FormControl(''),
-      greutate: new FormControl(''),
+      talie: new FormControl('', Validators.required),
+      greutate: new FormControl('', Validators.required),
+      inaltime: new FormControl('', Validators.required),
+      sex: new FormControl('', Validators.required),
       nutritie: new FormControl(''),
       constienta: new FormControl(''),
       facies: new FormControl(''),
@@ -36,7 +38,7 @@ export class RecordsAddOrUpdateComponent implements OnInit {
       motiveleInternarii: new FormControl(''),
       anamneza: new FormControl(''),
       istoriculBolii: new FormControl(''),
-      diagnosis: new FormControl('')
+      diagnosis: new FormControl(null, Validators.required)
     });
   }
 

@@ -5,6 +5,8 @@ export interface Record {
   stareaGenerala: string;
   talie: number;
   greutate: number;
+  inaltime: number;
+  sex: number;
   nutritie: string;
   constienta: string;
   facies: string;

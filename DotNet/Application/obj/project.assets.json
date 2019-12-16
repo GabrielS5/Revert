@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Aglomera/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Aglomera.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Aglomera.dll": {}
+        }
+      },
+      "Aglomera.D3/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Aglomera": "1.1.0",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.3/Aglomera.D3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Aglomera.D3.dll": {}
+        }
+      },
       "Algorithmia.Client/1.0.5": {
         "type": "package",
         "dependencies": {
@@ -1252,6 +1278,30 @@
     }
   },
   "libraries": {
+    "Aglomera/1.1.0": {
+      "sha512": "SOg7jVvhyAlVQiLPGKhFNJ3TpGJF2qbPi3eDp+JxGZscgxbF9eP19NCG0mFlz5sLC1FzigXWZebv+z7O8pc2Qg==",
+      "type": "package",
+      "path": "aglomera/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "aglomera.1.1.0.nupkg.sha512",
+        "aglomera.nuspec",
+        "lib/netstandard1.3/Aglomera.dll",
+        "lib/netstandard1.3/Aglomera.xml"
+      ]
+    },
+    "Aglomera.D3/1.1.0": {
+      "sha512": "/fSzVhfp0n7wfod1CR1pStnXrEA8LnUblPawBKivp6V85ptWExZEhvHfeb1Mx14oYwPontpJAPIMkCYmg3t4Yw==",
+      "type": "package",
+      "path": "aglomera.d3/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "aglomera.d3.1.1.0.nupkg.sha512",
+        "aglomera.d3.nuspec",
+        "lib/netstandard1.3/Aglomera.D3.dll",
+        "lib/netstandard1.3/Aglomera.D3.xml"
+      ]
+    },
     "Algorithmia.Client/1.0.5": {
       "sha512": "atC7hgNJ/tv0npPZP7vzXfraKLaSH2c6+p7Lk0WaFjyYSM2d5zb4czk9MeF4Jm1aO2OyeebRgz/UeMS2hQoeEw==",
       "type": "package",
@@ -4641,6 +4691,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Aglomera >= 1.1.0",
+      "Aglomera.D3 >= 1.1.0",
       "Algorithmia.Client >= 1.0.5",
       "AutoMapper >= 9.0.0",
       "Core >= 1.0.0",
@@ -4698,6 +4750,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Aglomera": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Aglomera.D3": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Algorithmia.Client": {
             "target": "Package",
             "version": "[1.0.5, )"

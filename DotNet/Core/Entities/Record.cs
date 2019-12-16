@@ -3,13 +3,15 @@ using System.Collections.Generic;
 
 namespace Core.Entities
 {
-    public class Record
+    public class Record : IComparable<Record>
     {
         public Guid Id { get; set; }
         public DateTime CreationDate { get; set; }
         public string StareaGenerala { get; set; }
         public int Talie { get; set; }
         public int Greutate { get; set; }
+        public int Inaltime { get; set; }
+        public int Sex { get; set; }
         public string Nutritie { get; set; }
         public string Constienta { get; set; }
         public string Facies { get; set; }
@@ -31,5 +33,10 @@ namespace Core.Entities
         public string IstoriculBolii { get; set; }
         public string Diagnosis { get; set; }
         public ICollection<Keyword> Keywords { get; set; }
+
+        public int CompareTo(Record other)
+        {
+            return this == other ? 1 : 0;
+        }
     }
 }
