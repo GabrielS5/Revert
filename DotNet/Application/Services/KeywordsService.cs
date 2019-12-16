@@ -45,28 +45,20 @@ namespace Application.Services
         {
             try
             {
-                if (_settings.UseAlgorithmiaKeywords)
+                var keywords = new List<Keyword>();
+                var tasks = new List<Task<IEnumerable<Keyword>>>();
+                tasks.Add(GetParallelDotsKeywords(text));
+                tasks.Add(GetAlgorithmiaKeywords(text));
+
+                var results = await Task.WhenAll(tasks);
+
+                foreach (var result in results)
                 {
-                    return GetAlgorithmiaKeywords(text);
+                    keywords.AddRange(result);
                 }
 
-                var formContent = new FormUrlEncodedContent(new[]
-                {
-                new KeyValuePair<string, string>("text", text),
-                new KeyValuePair<string, string>("api_key", _settings.KeywordsApiKey)
-            });
-                var response = await _client.PostAsync("", formContent);
+                return keywords;
 
-                if (response.IsSuccessStatusCode)
-                {
-                    var keywordsResponse = await response.Content.ReadAsAsync<KeywordsResponse>();
-
-                    return keywordsResponse.Keywords.Select(k => new Keyword
-                    {
-                        Value = k.Name,
-                        Significance = k.Significance
-                    });
-                }
             }
             catch { }
 
@@ -104,34 +96,68 @@ namespace Application.Services
                 }
             }
 
+            var clearWords = unprocessedKeywords
+                .SelectMany(k => k.Value.Split(" "))
+                .Select(s => s.Trim())
+                .ToList();
+            var lemmatizedWords = Lemmatize(string.Join(" . ", clearWords))
+                .Split(".").Select(w => w.Trim())
+                .Where(w => !string.IsNullOrEmpty(w))
+                .ToList();
+
+
             var processedKeywords = unprocessedKeywords.SelectMany(k => k.Value.Split(" ")
                     .Select(word => new Keyword
                     {
                         Significance = k.Significance,
                         Name = name,
-                        Value = Lemmatize(word).ToLower(),
+                        Value = lemmatizedWords.ElementAt(clearWords.IndexOf(word))
+                                               .ToLower().Trim(),
                         Positive = ComputeIsPositive(word)
-                    })
+                    }))
                     .GroupBy(g => g.Value)
-                    .First());
+                    .Select(g => g.OrderBy(o => o.Significance));
 
-            return processedKeywords;
+            return processedKeywords.Select(p => p.First());
         }
 
-        private IEnumerable<Keyword> GetAlgorithmiaKeywords(string text)
+        private async Task<IEnumerable<Keyword>> GetAlgorithmiaKeywords(string text)
         {
             var results = (string[])_keywordsAlgorithm.pipe<string[]>(text).result;
 
             return results.Select(word => new Keyword
             {
                 Value = word,
-                Significance = 0.75
+                Significance = 1
             });
         }
 
-        private string Lemmatize(string word)
+        private async Task<IEnumerable<Keyword>> GetParallelDotsKeywords(string text)
         {
-            var response = _lemmatizerAlgorithm.pipe<string>(word);
+            var formContent = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("text", text),
+                new KeyValuePair<string, string>("api_key", _settings.KeywordsApiKey)
+            });
+            var response = await _client.PostAsync("", formContent);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var keywordsResponse = await response.Content.ReadAsAsync<KeywordsResponse>();
+
+                return keywordsResponse.Keywords.Select(k => new Keyword
+                {
+                    Value = k.Name,
+                    Significance = k.Significance
+                });
+            }
+
+            return new List<Keyword>();
+        }
+
+        private string Lemmatize(string text)
+        {
+            var response = _lemmatizerAlgorithm.pipe<string>(text);
 
             return response.result.ToString();
         }

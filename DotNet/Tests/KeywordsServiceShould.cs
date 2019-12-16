@@ -62,8 +62,8 @@ namespace Tests
 
         [Theory]
         [InlineData("Useless blah", 0)]
-        [InlineData("Michael finished his meal in the restaurant", 2)]
-        [InlineData("The train is stopping", 1)]
+        [InlineData("Michael finished his meal in the restaurant", 5)]
+        [InlineData("The train is stopping", 2)]
         public async Task ReturnGoodResult(string input, int expectedCount)
         {
             // Act

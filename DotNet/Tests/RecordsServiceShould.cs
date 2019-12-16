@@ -108,7 +108,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Single(result.ToList());
+            Assert.Equal(2, result.ToList().Count);
         }
 
         [Fact]
@@ -145,7 +145,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Equal(4, result.ToList().Count);
+            Assert.Equal(12, result.ToList().Count);
         }
 
         [Fact]
@@ -161,7 +161,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Single(result.ToList());
+            Assert.Empty(result.ToList());
         }
 
         [Fact]
@@ -177,7 +177,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Single(result.ToList());
+            Assert.Empty(result.ToList());
         }
 
         [Fact]
@@ -194,7 +194,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Equal(2, result.ToList().Count);
+            Assert.Empty(result.ToList());
         }
 
         [Fact]
@@ -213,7 +213,7 @@ namespace Tests
             var result = await recordsService.GetKeywords(record);
 
             // Assert
-            Assert.Equal(4, result.ToList().Count);
+            Assert.Equal(2, result.ToList().Count);
         }
     }
 }

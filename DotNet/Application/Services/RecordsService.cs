@@ -49,6 +49,7 @@ namespace API.Services
         public async Task<List<Keyword>> GetKeywords(Record record)
         {
             var keywords = new List<Keyword>();
+            var tasks = new List<Task<IEnumerable<Keyword>>>();
 
             foreach (var property in record.GetType().GetProperties())
             {
@@ -57,22 +58,31 @@ namespace API.Services
                     var value = (string)property.GetValue(record);
                     if (!string.IsNullOrEmpty(value))
                     {
-                        var translation = await translateService.Translate(value);
-                        var collectedKeywords = await keywordsService.CollectKeywords(translation);
-                        if (!collectedKeywords.Any())
-                        {
-                            collectedKeywords = GetDefaultKeywords(translation);
-                        }
-                        collectedKeywords = keywordsService.ProcessKeywords(collectedKeywords, property.Name, translation);
-
-                        keywords.AddRange(collectedKeywords);
+                        tasks.Add(ProcessProperty(property.Name, value));
                     }
                 }
+            }
+            var results = await Task.WhenAll(tasks);
+            foreach (var result in results)
+            {
+                keywords.AddRange(result);
             }
 
             keywords.ForEach(k => k.Id = Guid.NewGuid());
 
             return keywords;
+        }
+
+        private async Task<IEnumerable<Keyword>> ProcessProperty(string property, string value)
+        {
+            var translation = await translateService.Translate(value);
+            var collectedKeywords = await keywordsService.CollectKeywords(translation);
+            if (!collectedKeywords.Any())
+            {
+                collectedKeywords = GetDefaultKeywords(translation);
+            }
+
+            return keywordsService.ProcessKeywords(collectedKeywords, property, translation);
         }
 
         private static IEnumerable<Keyword> GetDefaultKeywords(string translation)
