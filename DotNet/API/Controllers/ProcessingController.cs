@@ -16,12 +16,26 @@ namespace API.Controllers
         private readonly IRecordsService service;
         private readonly IMapper mapper;
         private readonly IClusteringService _clusteringService;
+        private readonly ITranslateService _translateService;
 
-        public ProcessingController(IRecordsService service, IMapper mapper, IClusteringService clusteringService)
+        public ProcessingController(
+            IRecordsService service,
+            IMapper mapper,
+            IClusteringService clusteringService,
+            ITranslateService translateService)
         {
             this.service = service;
             this.mapper = mapper;
             this._clusteringService = clusteringService;
+            this._translateService = translateService;
+        }
+
+        [HttpGet("translate")]
+        public async Task<ActionResult> Translate([FromQuery]string text)
+        {
+            var result = await _translateService.Translate(text);
+
+            return Ok(result);
         }
 
         [HttpPost]

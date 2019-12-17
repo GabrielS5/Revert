@@ -41,7 +41,7 @@ namespace Application.Aglomera
                 {
                     var leastKeywords = ((instance1Length > instance2Length ? instance2Length : instance1Length) - intersectionLength) * 2;
 
-                    score -= (1 / totalKeywords) * leastKeywords;
+                    score -= 1 - ((1 / totalKeywords) * leastKeywords);
                 }
                 else
                 {

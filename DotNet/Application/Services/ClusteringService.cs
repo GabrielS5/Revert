@@ -43,7 +43,11 @@ namespace Application.Services
                 involvedClusters.Add(GetClusterModel(currentCluster));
             }
 
-            return involvedClusters.Where(c => c != null).OrderByDescending(c => c.Percentage).First().Diagnosis;
+            return involvedClusters
+                .Where(c => c != null)
+                .OrderByDescending(c => c.Percentage)
+                .ThenByDescending(t => involvedClusters.Where(ic => ic.Diagnosis == t.Diagnosis))
+                .First().Diagnosis;
         }
 
         private ClusterModel GetClusterModel(Cluster<Record> cluster)
