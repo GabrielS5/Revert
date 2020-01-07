@@ -2,6 +2,7 @@ import { Keyword } from './Keyword';
 
 export interface Record {
   id: string;
+  creationDate: Date;
   stareaGenerala: string;
   talie: number;
   greutate: number;

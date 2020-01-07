@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{99F5331E-4BA1-4F8D-B810-01901640CA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B6393784-7E75-43F8-AA0F-135E2E8560C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{B6393784-7E75-43F8-AA0F-135E2E8560C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordsAPI", "KeywordsAPI\KeywordsAPI.csproj", "{FDF56A27-84ED-4982-8F91-5DD8D39EB258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusteringAPI", "ClusteringAPI\ClusteringAPI.csproj", "{666878D5-BEFC-428D-8C2E-AD6391C3428E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{B6393784-7E75-43F8-AA0F-135E2E8560C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6393784-7E75-43F8-AA0F-135E2E8560C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6393784-7E75-43F8-AA0F-135E2E8560C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF56A27-84ED-4982-8F91-5DD8D39EB258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF56A27-84ED-4982-8F91-5DD8D39EB258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF56A27-84ED-4982-8F91-5DD8D39EB258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF56A27-84ED-4982-8F91-5DD8D39EB258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666878D5-BEFC-428D-8C2E-AD6391C3428E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666878D5-BEFC-428D-8C2E-AD6391C3428E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666878D5-BEFC-428D-8C2E-AD6391C3428E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666878D5-BEFC-428D-8C2E-AD6391C3428E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

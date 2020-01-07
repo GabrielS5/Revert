@@ -33,6 +33,13 @@ namespace API.Controllers
             return Ok(mapper.Map<List<Record>, List<RecordModel>>(result.ToList()));
         }
 
+        [HttpGet("updated")]
+        public async Task<ActionResult> HasUpdated([FromQuery]DateTime date)
+        {
+            var result = await service.GetLatest();
+
+            return Ok(date < result.CreationDate);
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Record>> Get(Guid id)

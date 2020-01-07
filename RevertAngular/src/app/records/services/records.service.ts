@@ -20,6 +20,10 @@ export class RecordsService {
     return this.http.get<Record>(`${this.baseUrl}/${id}`);
   }
 
+  hasUpdated(record: Record): Observable<boolean> {
+    return this.http.get<boolean>(`${this.baseUrl}/updated?date=${record.creationDate}`);
+  }
+
   post(record: Record) {
     return this.http.post(this.baseUrl, record);
   }

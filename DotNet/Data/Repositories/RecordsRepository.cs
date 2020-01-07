@@ -60,6 +60,14 @@ namespace Data.Repositories
             await Save();
         }
 
+        public async Task<Record> GetLatest()
+        {
+            return await context
+                .Records
+                .OrderByDescending(o => o.CreationDate)
+                .FirstOrDefaultAsync();
+        }
+
         private async Task Save()
         {
             await context.SaveChangesAsync();

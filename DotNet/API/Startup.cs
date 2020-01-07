@@ -1,4 +1,5 @@
 ﻿using API.Services;
+using Application.Authentication;
 using Application.Profiles;
 using Application.Services;
 using AutoMapper;
@@ -30,6 +31,12 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = ApiKeyAuthenticationOptions.DefaultScheme;
+                options.DefaultChallengeScheme = ApiKeyAuthenticationOptions.DefaultScheme;
+            })
+           .AddApiKeySupport(options => { });
 
             var mappingConfig = new MapperConfiguration(mc =>
             {
@@ -44,6 +51,7 @@ namespace API
             services.AddTransient<ITranslateService, TranslateService>();
             services.AddTransient<IKeywordsService, KeywordsService>();
             services.AddTransient<IClusteringService, ClusteringService>();
+            services.AddTransient<IGetApiKeyQuery, InMemoryGetApiKeyMainQuery>();
 
             services.Configure<ExternalApisSettings>(
                 options => Configuration.GetSection("ExternalApisSettings").Bind(options));
@@ -64,6 +72,7 @@ namespace API
                .AllowAnyHeader()
                .AllowAnyMethod()
            );
+            app.UseAuthentication();
 
 
             if (env.IsDevelopment())

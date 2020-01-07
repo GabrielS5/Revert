@@ -1,0 +1,12 @@
+2020-01-02T21:27:56.9351939+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2020-01-02T21:27:57.1105678+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)

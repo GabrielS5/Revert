@@ -1,0 +1,1498 @@
+2019-12-17T08:06:18.2057789+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:06:18.4751847+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:09.9478287+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:09.9754445+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:26.4133333+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:26.4314940+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.6221892+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.6364861+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.6459604+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.6501956+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.6624032+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.6755132+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.6762986+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.6847978+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.6861135+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.6943957+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.7014207+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.7281543+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.7546469+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.7599748+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.7648631+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.7672468+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:43.8182992+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:43.8184635+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:07:44.0087580+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:07:44.0803158+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:11:14.3475477+02:00  [INF] 
+Executed method GetById with arguments:   a033e7e3-b677-43d0-a345-c17fbc01c91f (61283a7c)
+2019-12-17T08:11:18.9283988+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:11:19.0027626+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:05.7064946+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.7667716+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.8057266+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:05.8070522+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:05.9238605+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9303007+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9442914+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9528253+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9589395+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9785341+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9940982+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:05.9971153+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:05.9992810+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.0040283+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.0044253+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.0053719+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.0141184+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.0482453+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.3099335+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.3199882+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.4000564+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.4079717+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.4343921+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.4748633+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.5054407+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.5303556+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.5411249+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.5583055+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.5856656+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.5897261+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.5905389+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.5978970+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.7150779+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.7865655+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.7871513+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.8551135+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:06.9322004+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:06.9389126+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.0008832+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.0094291+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.0094378+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.0722951+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.1044740+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.1097501+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.1306924+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.1550485+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.1584367+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.1721684+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.3910560+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.4794325+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.4941032+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.5532070+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.5868401+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.6035984+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.6430954+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.6561306+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.6610793+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.6959424+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.7418593+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.7846089+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.7855899+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.7970036+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:07.8530591+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:07.8608295+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.0301474+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.1073648+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.1766994+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.2331859+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.2432649+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.2507518+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.2890670+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.2920772+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.3176013+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.3263498+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.3698834+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.3699170+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.6793384+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.7165670+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.7476447+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.7575740+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.7771195+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.7846281+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.7977941+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.8043456+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.8208264+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.8316422+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.8393426+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.8579837+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.8811790+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.8944789+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:08.9191214+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:08.9452777+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.5577996+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.6005241+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.6291549+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.6353513+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.6502860+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.6551404+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC.
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (01e7808d)
+2019-12-17T08:13:09.6615716+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.6692064+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.6801695+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.6820745+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.7086208+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.7249892+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.7305055+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.7453829+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.7507902+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.7887486+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:09.8449182+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:09.8751500+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.2059211+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.2148859+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.2227030+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.2851332+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.2852623+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.2867365+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.2872888+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.3625998+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.3668110+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.3786926+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.4318733+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.4318718+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.4404862+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.4560026+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.4780567+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.4990228+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.8113221+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.8401821+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.8509497+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.8789556+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:10.8900350+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:10.9130089+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.0049775+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.0050083+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.1469296+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.2093072+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.2317907+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.2555639+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.2654607+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.2685885+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.3054261+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.3137862+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.3969139+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.4784833+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.5028270+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.5668255+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.6360239+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.6652786+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.7668950+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.8713773+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.8715228+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.9240528+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:11.9271750+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:11.9549703+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.0898721+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.1262462+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.2850781+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.3262111+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.3898571+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.4115937+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.4218783+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.4371857+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.4659143+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.4685416+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.4941819+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.5304204+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.5312142+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.5358499+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.5514587+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.6197662+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.6200347+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.6634679+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.6840071+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.7729671+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.8756578+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.8897140+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.9334728+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:12.9612993+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:12.9798172+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.0118546+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.0138209+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.0783758+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.0916712+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.1280244+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.2897825+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.3025293+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.3378338+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.3574659+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.3841579+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.4150654+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.6101300+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.6254260+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.6326943+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.6869903+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.6869999+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.6951944+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.7558914+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.7785077+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:13:13.7839157+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:13:13.8037300+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:18:28.9015275+02:00  [INF] 
+Executed method GetById with arguments:   da8fd023-24e3-4e99-9716-4979022c9d61 (dd0573fc)
+2019-12-17T08:18:55.5880495+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:18:55.6053577+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:19:08.5857504+02:00  [INF] 
+Executed method GetById with arguments:   da8fd023-24e3-4e99-9716-4979022c9d61 (dd0573fc)
+2019-12-17T08:19:17.1391805+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:19:17.1558203+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:19:24.8741664+02:00  [INF] 
+Executed method GetById with arguments:   da8fd023-24e3-4e99-9716-4979022c9d61 (dd0573fc)
+2019-12-17T08:19:31.6278770+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:19:31.6463570+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:19:33.3087647+02:00  [INF] 
+Executed method GetById with arguments:   a033e7e3-b677-43d0-a345-c17fbc01c91f (61283a7c)
+2019-12-17T08:19:35.9344405+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:19:35.9463446+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:19:37.6076039+02:00  [INF] 
+Executed method GetById with arguments:   349c1220-9031-4024-9c81-41b64052a4b8 (5d2d9828)
+2019-12-17T08:19:40.9029251+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:19:40.9156610+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:20:21.8625220+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:20:21.8766097+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:20:48.6805631+02:00  [INF] 
+Executed method Save with arguments:  (7a9a2b83)
+2019-12-17T08:20:48.8863689+02:00  [INF] 
+Executed method Insert with arguments:   Core.Entities.Record (eba4eeb5)
+2019-12-17T08:20:49.1183790+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:20:49.1349984+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T08:20:50.6931758+02:00  [INF] 
+Executed method Save with arguments:  (7a9a2b83)
+2019-12-17T08:20:50.8193206+02:00  [INF] 
+Executed method Insert with arguments:   Core.Entities.Record (eba4eeb5)
+2019-12-17T08:21:04.4807232+02:00  [INF] 
+Executed method GetById with arguments:   c305d41c-3529-4b26-b86b-2c795989501d (366e705d)
+2019-12-17T08:21:06.4700545+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T08:21:06.4823278+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)
+2019-12-17T15:58:24.8934492+02:00  [INF] 
+Executed method GetAll with arguments:   
+ PatientId: 
+ StartDate: 
+ EndDate:  (f1568852)
+2019-12-17T15:58:24.9111569+02:00  [INF] 
+
+   SQL query is SELECT [i].[Id], [i].[Anamneza], [i].[AparatCardiovascular], [i].[AparatDigestiv], [i].[AparatRespirator], [i].[AparatUroGeneral], [i].[Constienta], [i].[CreationDate], [i].[Diagnosis], [i].[Facies], [i].[Fanere], [i].[FicatSplina], [i].[Greutate], [i].[Inaltime], [i].[IstoriculBolii], [i].[MotiveleInternarii], [i].[Mucoase], [i].[Nutritie], [i].[Sex], [i].[SistemEndocrin], [i].[SistemGanglionar], [i].[SistemMuscular], [i].[SistemOsteoArticular], [i].[StareaGenerala], [i].[Talie], [i].[Tegumente], [i].[TesutConjunctiv] FROM [Records] AS [i] ORDER BY [i].[CreationDate] DESC, [i].[Id].
+   From: Records.
+   Selected fields Id, Anamneza, AparatCardiovascular, AparatDigestiv, AparatRespirator, AparatUroGeneral, Constienta, CreationDate, Diagnosis, Facies, Fanere, FicatSplina, Greutate, Inaltime, IstoriculBolii, MotiveleInternarii, Mucoase, Nutritie, Sex, SistemEndocrin, SistemGanglionar, SistemMuscular, SistemOsteoArticular, StareaGenerala, Talie, Tegumente, TesutConjunctiv.
+   Filtered by fields: Not found.
+ (4cfaf11c)

@@ -12,5 +12,6 @@ namespace Core.Repositories
         Task<IQueryable<Record>> GetAll(RecordsQuery query);
         Task<Record> GetById(Guid id);
         Task Delete(Guid id);
+        Task<Record> GetLatest();
     }
 }

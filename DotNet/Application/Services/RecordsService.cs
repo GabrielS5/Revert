@@ -94,5 +94,10 @@ namespace API.Services
                                                                                       Value = w
                                                                                   });
         }
+
+        public async Task<Record> GetLatest()
+        {
+            return await recordsRepository.GetLatest();
+        }
     }
 }

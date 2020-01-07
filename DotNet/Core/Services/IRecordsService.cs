@@ -12,6 +12,7 @@ namespace Core.Services
         Task Insert(Record record);
         Task<IQueryable<Record>> GetAll(RecordsQuery query);
         Task<Record> GetById(Guid id);
+        Task<Record> GetLatest();
         Task Delete(Guid id);
         Task<List<Keyword>> GetKeywords(Record record);
     }

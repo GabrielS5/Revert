@@ -465,6 +465,8 @@
           "AutoMapper": "9.0.0",
           "Core": "1.0.0",
           "Data": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
           "Newtonsoft.Json": "12.0.3",
           "System.Net.Http.Formatting.Extension": "5.2.3"
         },
